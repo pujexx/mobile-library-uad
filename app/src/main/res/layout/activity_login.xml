@@ -1,0 +1,142 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_llibrary"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo_uad_white" />
+
+            <com.pujexx.mlibraryuad.custom.TextViewHelvetica
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Mobile Library"
+                android:textColor="#fff"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/input_background_transparent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/user" />
+
+                <com.pujexx.mlibraryuad.custom.EditTextHelvetica
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/transparent"
+                    android:hint="Username"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="#fff"
+                    android:textColorHint="#ffdedede"
+                    android:textSize="9pt" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_background_transparent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/key" />
+
+                <com.pujexx.mlibraryuad.custom.EditTextHelvetica
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/transparent"
+                    android:hint="Password"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="#fff"
+                    android:textColorHint="#ffdedede"
+                    android:textSize="9pt" />
+
+            </LinearLayout>
+
+
+            <com.pujexx.mlibraryuad.custom.ButtonHelvetica
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_primary"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="Login"
+                android:textColor="#fff"
+                android:textSize="9pt" />
+        </LinearLayout>
+    
+        
+        <LinearLayout
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:clickable="true"
+            android:background="@drawable/drawer_selector"
+            >
+                <ImageView
+                    android:id="@+id/login_back_icon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/arrow_back"
+                    android:scaleType="centerInside"
+                    />
+            <com.pujexx.mlibraryuad.custom.TextViewHelvetica
+                android:id="@+id/login_back_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="Back"
+                android:textSize="10pt"
+                />
+            </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#fff"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"></View>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="150dp"
+
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/cover_background"
+                        android:layout_width="100dp"
+                        android:layout_height="fill_parent"
+                        android:background="@color/red"
+                        android:gravity="center"
+                        android:padding="10dp">
+
+                        <com.pujexx.mlibraryuad.custom.TextViewHelvetica
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="L"
+                            android:textColor="#fff"
+                            android:textSize="45pt" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+
+                        <com.pujexx.mlibraryuad.custom.TextViewHelvetica
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:singleLine="false"
+                            android:text="Lorem Ipsum Dolor Sit ammet"
+                            android:textSize="10pt" />
+
+                        <com.pujexx.mlibraryuad.custom.TextViewHelvetica
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:singleLine="false"
+                            android:text="1298/B/XII/2011/AKT"
+                            android:textSize="6pt" />
+
+                        <com.pujexx.mlibraryuad.custom.TextViewHelvetica
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:singleLine="false"
+                            android:text="Jhon Doe"
+                            android:textColor="@color/dominan_color"
+                            android:textSize="7pt" />
+
+                        <com.pujexx.mlibraryuad.custom.TextViewHelvetica
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:singleLine="false"
+                            android:text="Salemba Empat, Jakarta, 2005"
+                            android:textSize="6pt"
+
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <com.pujexx.mlibraryuad.custom.TextViewHelvetica
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lorem" />
+            </LinearLayout>
+
+        </ScrollView>
+
+        <include layout="@layout/navbar"></include>
+    </FrameLayout>
+</LinearLayout>

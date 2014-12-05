@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="horizontal"
+    android:background="#fff"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/cover_background"
+        android:layout_width="100dp"
+        android:layout_height="fill_parent"
+        android:background="@color/red"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <com.pujexx.mlibraryuad.custom.TextViewHelvetica
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="L"
+            android:textColor="#fff"
+            android:textSize="45pt" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+
+
+        <com.pujexx.mlibraryuad.custom.TextViewHelvetica
+            android:layout_width="wrap_content"
+            android:singleLine="false"
+            android:layout_height="wrap_content"
+            android:textSize="10pt"
+            android:text="Lorem Ipsum Dolor Sit ammet" />
+
+        <com.pujexx.mlibraryuad.custom.TextViewHelvetica
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1298/B/XII/2011/AKT"
+            android:textSize="6pt"
+            android:singleLine="false"
+            />
+
+        <com.pujexx.mlibraryuad.custom.TextViewHelvetica
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jhon Doe"
+            android:textSize="7pt"
+            android:textColor="@color/dominan_color"
+            android:singleLine="false"
+            />
+
+        <com.pujexx.mlibraryuad.custom.TextViewHelvetica
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salemba Empat, Jakarta, 2005"
+            android:textSize="6pt"
+            android:singleLine="false"
+
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/Users/macbookpro/AndroidStudioProjects/MLibraryUAD/ResideMenu/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/macbookpro/AndroidStudioProjects/MLibraryUAD/ResideMenu/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="shadow"
+                path="/Users/macbookpro/AndroidStudioProjects/MLibraryUAD/ResideMenu/res/drawable-hdpi/shadow.9.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/macbookpro/AndroidStudioProjects/MLibraryUAD/ResideMenu/res/drawable-ldpi/ic_launcher.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/macbookpro/AndroidStudioProjects/MLibraryUAD/ResideMenu/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/macbookpro/AndroidStudioProjects/MLibraryUAD/ResideMenu/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="residemenu"
+                path="/Users/macbookpro/AndroidStudioProjects/MLibraryUAD/ResideMenu/res/layout/residemenu.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="residemenu_item"
+                path="/Users/macbookpro/AndroidStudioProjects/MLibraryUAD/ResideMenu/res/layout/residemenu_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/Users/macbookpro/AndroidStudioProjects/MLibraryUAD/ResideMenu/res/values/strings.xml"
+                qualifiers="" >
+                <string name="app_name" >ResideMenu
+                </string>
+            </file>
+        </source>
+        <source path="/Users/macbookpro/AndroidStudioProjects/MLibraryUAD/ResideMenu/build/generated/res/rs/debug" />
+        <source path="/Users/macbookpro/AndroidStudioProjects/MLibraryUAD/ResideMenu/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/macbookpro/AndroidStudioProjects/MLibraryUAD/ResideMenu/src/debug/res" />
+    </dataSet>
+
+</merger>

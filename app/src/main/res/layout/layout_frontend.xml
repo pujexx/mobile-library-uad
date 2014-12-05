@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="none"
+            android:overScrollMode="never">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:orientation="horizontal">
+
+                    <com.pujexx.mlibraryuad.custom.TextViewHelvetica
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mobile"
+                        android:textColor="#fff"
+                        android:textSize="14pt" />
+
+                    <com.pujexx.mlibraryuad.custom.TextViewHelveticaBold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Library."
+                        android:textColor="#fff"
+                        android:textSize="14pt" />
+
+                </LinearLayout>
+
+                <com.pujexx.mlibraryuad.custom.TextViewHelvetica
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Universitas Ahmad Dahlan"
+                    android:textColor="#fff"
+                    android:textSize="8pt" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <GridView
+
+                        android:id="@+id/gridview_menu"
+                        android:layout_width="match_parent"
+                        android:layout_height="399dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:horizontalSpacing="7dp"
+                        android:listSelector="@drawable/menu_selector"
+                        android:numColumns="3"
+                        android:overScrollMode="never"
+                        android:scrollbars="none"
+                        android:verticalSpacing="10dp" />
+                        <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="100dp"></View>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <include layout="@layout/navbar"></include>
+    </FrameLayout>
+
+</LinearLayout>

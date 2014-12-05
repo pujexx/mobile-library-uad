@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MLibraryUAD.iml" filepath="$PROJECT_DIR$/MLibraryUAD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PagingListView/PagingListView.iml" filepath="$PROJECT_DIR$/PagingListView/PagingListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ParallaxScroll/ParallaxScroll.iml" filepath="$PROJECT_DIR$/ParallaxScroll/ParallaxScroll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ResideMenu/ResideMenu.iml" filepath="$PROJECT_DIR$/ResideMenu/ResideMenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
+
